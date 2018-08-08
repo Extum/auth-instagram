@@ -12,6 +12,15 @@ Let your users login to your forum using their Instagram account.
 
 ## Installation
 
-```
+Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually:
+
+```bash
 composer require extum/flarum-ext-auth-instagram
+```
+
+## Updating
+
+```bash
+composer require extum/flarum-ext-auth-instagram
+php flarum cache:clear
 ```
